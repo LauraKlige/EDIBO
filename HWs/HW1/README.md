@@ -17,3 +17,4 @@ What Are Pandas Data Frames? Pandas DataFrame is two-dimensional size-mutable, p
 ## 18:04 panika 
 Pandas where() method is used to check a data frame for one or more condition and return the result accordingly. By default, The rows not satisfying the condition are filled with NaN value.
 xml file strukturēti dati (ar tagiem)
+Var pamēģināt - Pandas basic
