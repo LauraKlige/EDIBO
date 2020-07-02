@@ -1,0 +1,126 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  history
+    5  pwd
+    6  ls
+    7  ls/
+    8  ls /
+    9  ls /home
+   10  ls /home/user
+   11  ls /home/sc
+   12  pwd
+   13  ls
+   14  wdp
+   15  pwd
+   16  cd
+   17  cd/desktop
+   18  cd/home/user
+   19  ls /home/user/desktop
+   20  pwd
+   21  cd Desktop
+   22  ls
+   23  history
+   24  ls
+   25  mk2
+   26  mkdir
+   27  mkdir--help
+   28  mkdir --help
+   29  mkdir abc
+   30  mkdir ABC
+   31  ls
+   32  bca
+   33  mkdir abc
+   34  ABC
+   35  CAB
+   36  Abc
+   37  ABC
+   38  abc
+   39  Abc
+   40  mkdir ABC
+   41  mkdir abc
+   42  mkdir Abc
+   43  mkdir aBc
+   44  mkdir abC
+   45  mkdir ABc
+   46  mkdir aBC
+   47  mkdir AbC
+   48  mkdir ls
+   49  ls
+   50  date
+   51  ls -l
+   52  ls -l /home/user/Desktop/
+   53  ls -l
+   54  cd
+   55  pwd
+   56  cd /etc
+   57  ls
+   58  -n
+   59  head -n
+   60  }
+   61  ls |wc -c
+   62  ls
+   63  pwd
+   64  cd pwd
+   65  cd
+   66  ls Desktop
+   67  ls | wc -c
+   68  ls Desktop/| wc -c
+   69  wc --help
+   70  pwd
+   71  java
+   72  java -version
+   73  python
+   74  PWD
+   75  pwd
+   76  ls
+   77  cd Desktop
+   78  cd
+   79  a=123
+   80  echo a
+   81  echo $a
+   82  a=215
+   83  echo a
+   84  echo $a
+   85  b=kitten
+   86  echo $b
+   87  c="I love you"
+   88  echo $b $c
+   89  d="!"
+   90  echo
+   91  echo $d
+   92  date
+   93  echo date
+   94  e=date
+   95  d=date|echo $d
+   96  e=date|echo $e
+   97  echo 'date'
+   98  echo  date'
+   99  cd
+  100  echo `date`
+  101  z=44
+  102  echo $z
+  103  echo $a+$z
+  104  a=123
+  105  echo $a+$z
+  106  hex=0x32
+  107  echo $hex
+  108  sum=$(($a+$z))
+  109  echo $sum
+  110  echo $((a+z))
+  111  pwd
+  112  ls
+  113  echo $((a+z)) EUR
+  114  echo $((a+z)) EUR >a.text
+  115  ls
+  116  ls -l
+  117  ls -l a.text
+  118  cat
+  119  cat
+  120  cat a.text
+  121  head a.text
+  122  tail a.text
+  123  date
+  124  history tail
+  125  history
+  126  history> h.txt
