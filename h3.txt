@@ -1,0 +1,36 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  cd ../../
+    5  pwd
+    6  echo $
+    7  firefox
+    8  echo $user
+    9  echo $USER
+   10  cd ../../
+   11  cd $HOME
+   12  pwd
+   13  date
+   14  echo $PS1
+   15  PS1=$
+   16  PS1=W
+   17  PS1=>
+   18  PS1=G
+   19  PS1=L
+   20  PS1=J
+   21  pwd
+   22  PS1=$
+   23  pwd
+   24  PS1=user@epk428-11:~
+   25  $PS1=user@epk428-11:~$
+   26  Ps1="@ "
+   27  vim
+   28  bash loop1.sh
+   29  vim loop1.sh
+   30  bash loop1.sh
+   31  vim loop2.sh
+   32  vim loop1.sh
+   33  for i in {0..5}; do echo "$i"; done
+   34  for i in {0..5}; do echo "$i $((i*i)) "; done
+   35  for i in {0..5}; do echo "$i $((i*i)) $((i*i*i)) "; done
+   36  history>h3.txt
