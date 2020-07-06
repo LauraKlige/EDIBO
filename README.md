@@ -38,3 +38,19 @@ ls -tl saraksta sakārtošana alfabēta? laika sec
  $PATH ja objekta atrtašanās būs ceļos viņu parādīs atradīs. komandām jābūt atrodāmām un izpildāmām.
  PATH=$PATH:~
  chmod 740 1 visu 4 read 0 neko (saimnieks/saimnieka grupa/visi pārējie)
+ 
+ ## Day 4
+ ls -l  
+ df  
+ du  
+ df -m  
+ df -h
+ df -lh  
+ ls /dev/  
+ df --help  
+ df -h  
+ 
+Labs paraugs kā izgriezt vienu kolonnu no rindas https://unix.stackexchange.com/questions/42047/cut-grep-and-df-h  
+echo `awk "BEGIN {printf \"%.4f\n\", a/b}"`"%" lai apreiķinātu precizāku % --> echo `awk "BEGIN {printf\"%.2f\n\",66290508/103292152*100}"`"%"
+
+loop test https://www.tecmint.com/run-repeat-linux-command-every-x-seconds/
