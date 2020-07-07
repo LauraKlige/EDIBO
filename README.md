@@ -54,3 +54,9 @@ Labs paraugs kā izgriezt vienu kolonnu no rindas https://unix.stackexchange.com
 echo `awk "BEGIN {printf \"%.4f\n\", a/b}"`"%" lai apreiķinātu precizāku % --> echo `awk "BEGIN {printf\"%.2f\n\",66290508/103292152*100}"`"%"
 
 loop test https://www.tecmint.com/run-repeat-linux-command-every-x-seconds/
+
+## Day 5  
+
+Gnuplot  
+if komstrukcija  
+
