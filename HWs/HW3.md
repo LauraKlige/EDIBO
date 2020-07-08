@@ -33,3 +33,22 @@ echo ${D2B[123]}
  done
 
  echo "Binārais skaitlis, skaitlim 123= $rezultats"
+### Zināt no 0 - 15 bināros skaitļos
+
+DEC BIN(2simb)   HEX(16unik simb)
+0    0000         0
+1    0001         1
+2    0010         2
+3    0011         3
+4    0100         4
+5    0101  (4+1)  5
+6    0110 (4+2)   6
+7    0111 (3+4)   7
+8    1000         8
+9    1001 (8+1)   9
+10   1010 (8+2)   A
+11   1011 (10+1)  B
+12   1100         C
+13   1101         D
+14   1110         E
+15   1111         F
