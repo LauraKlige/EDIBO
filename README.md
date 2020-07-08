@@ -18,7 +18,7 @@ ls -tl saraksta sakārtošana alfabēta? laika sec
 
 ### day2: 
 
-- pwd
+https://www.py4e.com/lessons- pwd
 - ls -cl
 - mkdir 
 - cat 
@@ -66,4 +66,4 @@ ping
 wget  
 man wget  
 
-
+https://www.py4e.com/lessons
