@@ -11,4 +11,25 @@ Binārā skaitīšanas sistēma/ASCII tabula.
 • 16 — heksadecimālā (datorzinātnē)  
 • 60 — heksagesimālā (izmanto leņķu mērīšanai, minūšu, sekunžu uzskaitei)   
 
-### Binārās secības
+### Dec2bin ar bash
+
+  #! /bin/bash
+  val=123
+  D2B=({0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1}{0..1})
+
+echo ${D2B[123]}
+
+ #! /bin/bash
+ n=123
+ rezultats=0
+ pakape=1
+
+ while [ $n -ne 0 ]
+ do
+        atlikums=$(( $n % 2 ))
+        rezultats=$(( $atlikums * $pakape + $rezultats ))
+        pakape=$(( $pakape * 10 ))
+        n=$(( $n / 2 ))
+ done
+
+ echo "Binārais skaitlis, skaitlim 123= $rezultats"
