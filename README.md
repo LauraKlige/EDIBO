@@ -59,4 +59,11 @@ loop test https://www.tecmint.com/run-repeat-linux-command-every-x-seconds/
 
 Gnuplot  
 if komstrukcija  
+ping
+
+## Day 6
+
+wget  
+man wget  
+
 
