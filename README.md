@@ -66,4 +66,5 @@ ping
 wget  
 man wget  
 
-https://www.py4e.com/lessons
+https://www.py4e.com/lessons  noskatīties..
+
