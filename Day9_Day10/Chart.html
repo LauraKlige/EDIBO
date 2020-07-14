@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+
+window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer", {
+        title:{
+            text: "Oil price per barrel in dollars"             
+        },
+        data: [             
+        {
+            // Change type to "doughnut", "line", "splineArea", etc.
+            type: "column",
+            dataPoints: [
+                { label: "2000.year",  y: 100  },
+                { label: "2004.year",  y: 39.5},
+                { label: "2008.year",  y: 40  },
+                { label: "2012.year",  y: 109 },
+                { label: "2016.year",  y: 53  },
+                { label: "2020.year",  y: 63  }
+            ]
+        }
+        ]
+    });
+    chart.render();
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 200px; width: 75%;"></div>
+</body>
+</html>
