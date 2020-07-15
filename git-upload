@@ -3,6 +3,8 @@ if [ $# == 1 ]
 then
 git config --global user.email laura.teraude@gmail.com
 git add .
+#git add README.md
+#git add /home/user/EDIBO/AngularTest/HelloWorld/src/app
 git commit -m $1
 git pull
 git push origin master
