@@ -92,3 +92,9 @@ ng add @angular/material
 cp -r ../HelloWorldLegacy/* ./
 code .
 
+
+ls -lt // vajag padarīt izpildāmu ja nav zaļš.
+chmod 744 continueAngularTest
+ls -lt //rādās izpildāms
+./continueAngularTest
+
