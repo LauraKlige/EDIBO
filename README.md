@@ -112,10 +112,10 @@ git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --
 
 nvm i 12
 
-npm install -g @angular/cli
-ng new my-dream-app
-cd my-dream-app
-ng serve
-ng add @angular/material 
+npm install -g @angular/cli  
+ng new my-dream-app  
+cd my-dream-app  
+ng serve  
+ng add @angular/material  
 
 
