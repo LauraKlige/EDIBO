@@ -1,0 +1,29 @@
+<h1>Laika ziņas</h1>
+<!-- <h2>Datumes no {{startDate}} lidz {{endDate}}</h2> -->
+<h2>Datumi ...</h2> -->
+
+<table class="table table-border">
+  <thead>
+    <th>Datums</th>
+    <th>TemperaturesC</th>
+    <th>TemperaturesF</th>
+    <th>Slēdziens</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let temperatures of temperatures">
+      <td>{{temperatures[1].date}}</td>
+      <td>{{temperatures[1].temperaturesC}}</td>
+      <td>{{temperatures[1].temperaturesF}}</td>
+      <td>{{temperatures[1].summary}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<div>
+  {{temperatures[1][1].date | json}}
+</div>
+
+<div>
+  {{temperatures | json}}
+</div>
+
