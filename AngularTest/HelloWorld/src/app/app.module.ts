@@ -3,21 +3,21 @@ import { NgModule } from '@angular/core';
 import { MatSliderModule } from '@angular/material/slider';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CurrencyModule } from './currency/currency.module';
-import { WeatherModule } from './weather/weather.module';
-
+import { AppRoutingModule } from './app-routing.module';
+import { CurrencyComponent} from './currency/currency.component';
+import { WeatherComponent } from './weather/weather.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CurrencyComponent,
+    WeatherComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    CurrencyModule,
-    WeatherModule,
+    AppRoutingModule
   ],
-
   providers: [],
   bootstrap: [AppComponent]
 })
