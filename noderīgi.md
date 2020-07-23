@@ -8,3 +8,5 @@ W3Schools.com  (HTML, CSS)
 for fun - clickclickclick.click  
 
 Slido.com  (Polls, Q&A Livestream)  cool
+Nic.lv
+Picsum.photos (random bildes piemēriem)  
