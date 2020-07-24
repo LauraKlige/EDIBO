@@ -13,4 +13,4 @@ Picsum.photos (random bildes piemēriem)
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio-code (Todo/Postman/Angular)  
 canIuse.com  
 W3C.org  
-
+namescheap.com  
