@@ -1,0 +1,14 @@
+_HiStOrY_V2_
+.databases
+.open\040test.db
+.databases
+create\040table\040mana_tabula1(lauks1\040smallint,\040lauks2\040varchar(5));
+.tables
+insert\040into\040mana_tabula1\040values\040(1,'abc');
+select\040*\040from\040mana_tabula1;
+.show
+insert\040into\040mana_tabula1\040values\040(1000,'ghi');
+select\040*\040from\040mana_tabula1;
+insert\040into\040mana_tabula1\040values\040(5,'abcdef');
+select\040*\040from\040mana_tabula1;
+.exit
